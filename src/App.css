@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: red;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+
+padding: 10px;
+font-size: 25px;
+border-radius: 5px;
+box-shadow: rgba(238, 24, 67, 0.748) 0px 7px 29px 0px;
+}
+.btn:hover{
+  background-color: rgba(238, 24, 67, 0.748);
+  color: white;
+ 
+  cursor: pointer;
+}
+/* .bg-img{
+  height: 200px;
+  width: 200px;
+} */
+img{
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(238, 24, 67, 0.748) 0px 7px 29px 0px;
+  border-radius: 20px;
 }
